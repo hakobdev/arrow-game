@@ -1,0 +1,64 @@
+.playground__div1 {
+  width: 500px;
+  border: 3px solid #5e8aa0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.description__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.description__title p {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #3f6477;
+  text-shadow: 1px 1px 1px #5b98b7;
+}
+
+.paragraph {
+  color: #2a434f;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+.btns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #3f647741;
+  color: #2a434f;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btns button:hover {
+  color: white;
+  background-color: #3f6477;
+}
+
+.btns .active {
+  pointer-events: none;
+}

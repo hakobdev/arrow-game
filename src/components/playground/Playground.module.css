@@ -1,0 +1,8 @@
+.playground__div {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 5px;
+}

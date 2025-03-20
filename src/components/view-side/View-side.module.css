@@ -1,0 +1,116 @@
+.playground__div1 {
+  width: 500px;
+  border: 3px solid #5e8aa0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.title1 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #3f6477;
+  text-shadow: 1px 1px 1px #5b98b7;
+}
+
+.title2 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #3f6477;
+  text-shadow: 1px 1px 1px #5b98b7;
+}
+
+.paragraph {
+  color: #2a434f;
+}
+
+.info__div {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.span__error {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: red;
+}
+.span__success {
+  width: 130px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: green;
+}
+
+.arrow__div {
+  display: flex;
+  width: 100%;
+  gap: 3px;
+  padding-right: 15px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #5e8aa0;
+  font-size: 25px;
+}
+
+.iconSuccess {
+  background-color: rgb(123, 226, 176);
+}
+.iconUnSuccess {
+  background-color: rgb(240, 174, 174);
+}
+
+.text__span {
+  color: #2a434f;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #25b09b;
+  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
