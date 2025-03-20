@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/arrow-game/static/css/main.54d09670.css",
+    "main.js": "/arrow-game/static/js/main.5253bfd4.js",
+    "static/js/738.2495f328.chunk.js": "/arrow-game/static/js/738.2495f328.chunk.js",
+    "static/js/907.55b0e142.chunk.js": "/arrow-game/static/js/907.55b0e142.chunk.js",
+    "static/js/923.40802251.chunk.js": "/arrow-game/static/js/923.40802251.chunk.js",
+    "static/js/627.7cf5b136.chunk.js": "/arrow-game/static/js/627.7cf5b136.chunk.js",
+    "index.html": "/arrow-game/index.html",
+    "main.54d09670.css.map": "/arrow-game/static/css/main.54d09670.css.map",
+    "main.5253bfd4.js.map": "/arrow-game/static/js/main.5253bfd4.js.map",
+    "738.2495f328.chunk.js.map": "/arrow-game/static/js/738.2495f328.chunk.js.map",
+    "907.55b0e142.chunk.js.map": "/arrow-game/static/js/907.55b0e142.chunk.js.map",
+    "923.40802251.chunk.js.map": "/arrow-game/static/js/923.40802251.chunk.js.map",
+    "627.7cf5b136.chunk.js.map": "/arrow-game/static/js/627.7cf5b136.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54d09670.css",
+    "static/js/main.5253bfd4.js"
+  ]
+}
